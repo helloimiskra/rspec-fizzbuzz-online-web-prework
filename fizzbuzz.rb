@@ -3,8 +3,8 @@ def fizzbuzz(int)
     return "Fizz"
   elsif int % 5 == 0
     return "Buzz"
-  elsif int % (5 && 3) == 0
-    return "fizzbuzz"
+  elsif int (% 5 && 3)
+    puts "fizzbuzz"
   else int !% 5 || 3
     return nil
   end
